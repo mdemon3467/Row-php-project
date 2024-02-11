@@ -5,6 +5,7 @@ require "../database/db_connect.php"
 
 <?php 
 
+
 if(isset($_GET['id'])){
     $id = $_GET['id'];
     $select = "SELECT * FROM expertises WHERE id='$id'";
